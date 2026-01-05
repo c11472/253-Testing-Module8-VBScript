@@ -1,0 +1,42 @@
+'****************************
+'practice - select - Return Function 
+
+'*****************************
+Dim day
+day = 3
+dim str1
+Function method_ucase(str1)
+      method_ucase=Ucase(str1) 'Please check this statement for return method/function
+      'Return tr2
+End Function
+
+Function method_lcase(str2)
+     method_lcase=Lcase(str2)
+End Function
+
+
+Function method_comp(strt1,strt2)
+    strt3=strComp(strt1,strt2)
+End Function
+     
+     
+     
+Select Case day
+    Case 1
+       dim resultdata
+       resultdata= method_ucase("hello")
+       'call method_ucase("hello")
+       msgbox(resultdata)
+    
+    Case 2
+        'statement 2
+        str3=method_lcase("HELLO")
+        msgbox(str3)
+    Case 3
+        res=method_comp("hello world","hello world")
+        MsgBox(res)
+    Case Else
+        WScript.Echo "Invalid day"
+
+
+End Select
