@@ -1,0 +1,20 @@
+'***************************
+
+Select or switch case in VBScript 
+
+'*****************************
+
+Dim day
+day = 3
+
+Select Case day
+    Case 1
+        WScript.Echo "Monday"
+    Case 2
+        WScript.Echo "Tuesday"
+    Case 3
+        WScript.Echo "Wednesday"
+    Case Else
+        WScript.Echo "Invalid day"
+End Select
+
