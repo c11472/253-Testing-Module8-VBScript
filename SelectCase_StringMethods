@@ -1,0 +1,40 @@
+'String methods with Select Case in Vb script
+'*********************************************
+Dim day
+day = 3
+
+Select Case day
+    Case 1
+        'statement 1
+        'tr2=Ucase(str)
+    Case 2
+        'statement 2
+        'str1=Lcase(str)
+    Case 3
+         'statement 3
+         'InStr(str,"hello")
+    Case 4
+         'nofchar=Len(l1)
+        WScript.Echo "Invalid day"
+    Case 5
+         'Str2=Mid(str,10,15)
+    Case 6
+         'res=Replace(str,"specific","particular")
+    Case 7
+         'str1 = StrReverse(str)
+
+    Case 8
+         'MsgBox(String(10,"%"))
+    Case 9
+         'tr2= Trim(str)
+    Case 10
+         if(isEmpty(str)) Then
+              msgbox("VAriable is empty")
+         else
+              msgbox("variable is having values stored")
+         End If
+    Case Else
+          MsgBox("Done")
+
+        
+End Select
